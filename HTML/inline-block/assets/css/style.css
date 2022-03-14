@@ -1,0 +1,23 @@
+/*  css reset  */
+/* box-sizing >> it is used to calculate width and heigth of html element */
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div, span , a{
+    border: 1px solid ;
+
+}
+div{
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+}
+a{
+    width: 100px;
+    margin: 10px;
+    height: 25px;
+    display: inline-block;
+}

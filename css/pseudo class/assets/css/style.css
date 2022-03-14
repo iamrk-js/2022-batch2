@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 7px;
+}
+.demo {
+  width: 250px;
+  height: 250px;
+}
+.btn-primary,
+.demo {
+  background-color: blueviolet;
+  color: #fff;
+  border: 1px solid blueviolet;
+}
+/* pesudo class define the state of the html elements  */
+/* :hover >> It defines the state of html element when we move cursor on it  */
+
+.btn-primary:hover,
+.demo:hover {
+  background-color: #fff;
+  color: blueviolet;
+}
+/* focus : it define the state of the html element by using TAB key
+
+*/
+.btn-primary:focus,
+.demo:focus {
+  background-color: #fff;
+  color: blueviolet;
+}
+/* :active  >> */
+
+.btn-primary:active,
+.demo:active {
+  background-color: gold;
+}
+
+article :first-of-type {
+  font-size: 150%;
+  font-style: italic;
+}
+
+article p:first-of-type {
+  color: hotpink;
+}
+
+article p:last-of-type,
+article h2:last-of-type {
+  color: dodgerblue;
+}
+
+article :last-child{
+  font-size: 250%;
+  margin: 20px 0;
+}
+
+/* .itemsList li:nth-child(odd){
+  padding: 5px;
+  border: 2px dotted ;
+  margin: 5px 0;
+  background-color: hotpink;
+} */
+
+.itemsList li:nth-child(2n + 1){
+  padding: 5px;
+  border: 2px dotted ;
+  margin: 5px 0;
+  background-color: hotpink;
+}
+
+
+/* .itemsList li:nth-child(even){
+  padding: 5px;
+  border: 2px double;
+  margin: 5px 0;
+  background-color: dodgerblue;
+} */
+
+.itemsList li:nth-child(2n){
+  padding: 5px;
+  border: 2px double;
+  margin: 5px 0;
+  background-color: dodgerblue;
+}
+.itemsList li:nth-child(3n){
+  font-style: italic;
+}
+article h2:nth-child(3){
+  margin: 50px;
+}
+
+
+/* article :first-child{
+  background-color: orange;
+} */
+
+article h2:nth-child(1){
+  background-color: orange;
+}

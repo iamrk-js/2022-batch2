@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+/* parent-child selector  */
+.skillSetOne li,
+.skillSetTwo li {
+  padding: 5px 10px;
+  margin-bottom: 3px;
+  color: #fff;
+}
+.skillSetOne li {
+  border: 1px solid grey;
+  background-color: blueviolet;
+}
+
+.skillSetTwo li {
+  border: 1px dotted blueviolet;
+  background-color: orange;
+}
+
+/* // Direct Child Selector >> It is represented by '>' */
+.product > p{
+  background-color: orange;
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.product article p{
+  background-color: aqua;
+  padding: 5px;
+  margin: 5px 0;  
+}
+/* next immidiate sibling , it is represented by '+' */
+.product + p{
+  background-color: brown;
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+/* next all siblings  */
+
+.product ~ p{
+  background-color: chocolate;
+  padding: 5px;
+  border: 2px double black;
+}
+
+
+

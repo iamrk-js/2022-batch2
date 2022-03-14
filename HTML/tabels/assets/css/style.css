@@ -1,0 +1,18 @@
+table{
+    /* width: 800px; */
+    width: 100%;
+}
+
+th, td{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+/* css grouping  */
+table, th, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}

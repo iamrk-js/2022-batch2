@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  /* Universal Selector  >> It selects All HTML elements from the html file  */
+
+  /* Tag Selectors >> We use Tag name to select HTML element  */
+
+  /* div{
+      width: 300px;
+      height: 300px;
+      background-color: orange;
+  } */
+
+  /* class Selector >> we use class Name to select HTML Element */
+
+  .test{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+  }
+
+  .btn{
+    /* padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px; */
+    /* padding: 7px 10px 7px 10px; */
+    padding: 7px 10px;
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    margin: 10px;
+    /* background-color: skyblue; */
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  .btn-primary{
+    background-color: skyblue;
+    
+  }
+  .btn-secondary{
+    background-color: blueviolet;
+    
+  }
+  .btn-tir{
+    background-color: gold;
+    
+  }
+
+  /* ID Selector  */
+
+  #test{
+    background-color: blueviolet;
+    border: 5px solid gold;
+    border-radius: 10px;
+    margin:10px;
+    height: 300px;
+
+  }

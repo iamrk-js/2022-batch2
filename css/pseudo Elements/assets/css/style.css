@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 25px 0;
+  max-width: 100%;
+}
+
+/* .info span{
+  font-weight: bold;
+  font-size: 200%;
+} */
+
+.info::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info::first-line {
+  color: orange;
+}
+.info span {
+  color: red;
+}
+.dev::before{
+  content: 'Angular ';
+}
+.dev::after{
+  content: ' are in Demand';
+}
+
+::selection{
+  background-color: pink;
+}
+/* what is the diffrence between pseudo class and pseudo element
+ >>
+pseudo class >> 1 It is used to define any state of the HTML Element (like hover, focus...)
+                2 It is represented by :
+pseudo element >> It is used to define particular part of the HTML Element
+*/

@@ -1,0 +1,7 @@
+
+h1, div, span, a {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: orange;
+}
