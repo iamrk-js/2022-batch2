@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+}
+/* static 
+relative
+absolute
+fix
+HTML5 >> sticky
+*/
+
+.demo{
+    padding: 10px;
+    border: 1px double #000000;
+    margin-bottom: 10px;
+}
+
+.orange{
+    height: 500px;
+    background-color: orange;
+    border: 1px solid;
+    margin-bottom: 50px;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+}
+.newchild{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+}
+.child1{
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+.child2{
+    top: 10px;
+    right: 10px;
+}
+.child3{
+    bottom: 10px;
+    left: 10px;
+}
+.child4{
+    right: 10px;
+    bottom: 10px;
+}
+.child5{
+    top: 10px;
+    /* left:640px - 50px; */
+    /* left: 590px; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.child6{
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+
+}
+.child7{
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.child8{
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.child9{
+    top: 50%;
+    left: 50%;
+    /* transform: translateX(-50%);
+    transform: translateY(-50%); */
+    transform: translate(-50%, -50%);
+}
+
+.child10{
+    top: 10px;
+    left: 10px;
+}
