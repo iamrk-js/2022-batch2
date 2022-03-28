@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* specificity of ID > spec of Class > Speci of Tag  */
+/* (no of Id's present in Selectors, no of class present in selector, no of tag present in selector) */
+
+/* (1,0,0)  >> 100 */
+#products{
+  color: hotpink;
+}
+/* (0,1,0) >> 10  */
+.heading{
+  color: blue;
+}
+/* (0,0,1) >> 1  */
+h1{
+  color: blueviolet;
+  font-size: 48px;
+}
+/* (0,0,1) >> 1  */
+h1{
+  color: dodgerblue !important;
+}
+/* (0,1,0) >> 10  */
+.heading{
+  color: brown;
+}
+
+/* (1,0,1) >> 101  */
+ #products {
+  color: gold;
+}
