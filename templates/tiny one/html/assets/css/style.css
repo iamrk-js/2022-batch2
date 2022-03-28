@@ -1,126 +1,154 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
+/* font-family: "Poppins", sans-serif; */
 
 /* helper class  */
 a:link,
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.lowercase {
+  text-transform: lowercase !important;
 }
 .ml-0 {
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 .mr-0 {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 }
 .mr-40 {
-    margin-right: 40 !important;
+  margin-right: 40 !important;
+}
+.mr-1col {
+  margin-right: calc(100% / 12);
 }
 .mt-0 {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 .mb-0 {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .mb-70 {
-    margin-bottom: 70px !important;
+  margin-bottom: 70px !important;
 }
-
+.mb-130 {
+  margin-bottom: 130px !important;
+}
 .mb-20 {
-    margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
 }
 .ml-20 {
-    margin-left: 20px !important;
+  margin-left: 20px !important;
 }
 .mb-40 {
-    margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
+}
+.mb-80 {
+  margin-bottom: 80px !important;
 }
 .mb-90 {
-    margin-bottom: 90px !important;
+  margin-bottom: 90px !important;
 }
 .pl-0 {
-    padding-left: 0 !important;
+  padding-left: 0 !important;
 }
 .pr-0 {
-    padding-right: 0 !important;
+  padding-right: 0 !important;
 }
 .pt-0 {
-    padding-top: 0 !important;
+  padding-top: 0 !important;
 }
 .pb-0 {
-    padding-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 .pt-72 {
-    padding-top: 72px !important;
-} 
-.pr-22{
-    padding-right: 22px !important;
+  padding-top: 72px !important;
+}
+.pr-22 {
+  padding-right: 22px !important;
 }
 .container {
-    width: 960px;
-    margin: 0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 .row,
 .row::after,
 .row::before {
-    width: 100%;
-    display: table;
-    clear: both;
+  width: 100%;
+  display: table;
+  clear: both;
 }
 .col10,
 .col4,
-.col6 , .col3, .col9{
-    float: left;
-    padding: 0 15px;
+.col1,
+.col6,
+.col3,
+.col9,
+.col12 {
+  float: left;
+  padding: 0 15px;
 }
-.col6 {
-    width: 50%;
+.col1 {
+  width: calc(100% / 12);
 }
 .col3 {
-    width: 25%;
-}
-.col9 {
-    width: 75%;
-}
-.col10 {
-    width: calc(100% * 10 / 12);
+  width: 25%;
 }
 .col4 {
-    width: calc(100% * 4 / 12);
+  width: calc(100% * 4 / 12);
+}
+
+.col6 {
+  width: 50%;
+}
+.col9 {
+  width: 75%;
+}
+.col10 {
+  width: calc(100% * 10 / 12);
+}
+
+.col12 {
+  width: 100%;
 }
 .plOneAndHalf {
-    padding-left: calc(100% * 1.5 / 12);
+  padding-left: calc(100% * 1.5 / 12);
 }
 /* section heroImg css  */
 .heroImg {
-    padding: 60px 0px 105px 0px;
-    background-color: #fcdb00;
+  padding: 60px 0px 105px 0px;
+  background-color: #fcdb00;
 }
 /* .navbar {
     height: 54px;
     line-height: 54px;
 } */
 .navbar li {
-    display: inline-block;
-    margin: 0 16px;
+  display: inline-block;
+  margin: 0 16px;
 }
 .navbar li a {
-    display: inline-block;
-    padding: 14px 16px;
-    color: #010101;
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: capitalize;
+  display: inline-block;
+  padding: 14px 16px;
+  color: #010101;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 /* .navbar li:nth-child(1){
@@ -137,70 +165,91 @@ ul {
     padding-right: 0;
 } */
 .sectionHeading {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 .secSubHeading {
-    font-size: 20px;
-    color: #313841;
+  font-size: 20px;
+  color: #313841;
 }
 
 .secInfo {
-    font-size: 16px;
-    color: #555555;
+  font-size: 16px;
+  color: #555555;
 }
 .webLinks li {
-    display: inline-block;
-    margin-right: 37px;
+  display: inline-block;
+  margin-right: 37px;
 }
 .webLinks i {
-    font-size: 34px;
-    color: #010101;
+  font-size: 34px;
+  color: #010101;
 }
 /* section features css  */
+/* */
 .features {
-    padding: 120px 0px 160px 0px;
-}
-.thumbImg i{
-    font-size: 42px;
-    color: #010101;
-}
-.thumbInfo h4{
-    color: #010101;
-    font-size: 22px;
-    margin-bottom: 16px;
-}
-.thumbInfo p {
-    color: #898989;
-    font-size: 16px;
-}
-/* section footer css  */
-.footer{
-    padding: 95px 0px 140px;
-    background-color: #010101;
+  padding: 120px 0px 160px 0px;
 }
 
-.footer .sectionHeading{
-    color: #fcdb00;
+.thumbImg i {
+  font-size: 42px;
+  color: #010101;
 }
-.footer .secSubHeading{
-    color: #898989;
+.thumbInfo h4 {
+  color: #010101;
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif; 
+  min-height: 66px;
 }
-.submit{
-    background-color: #fcdb00;
-    height: 50px;
-    width: 126px;
-    display: inline-block;
-    border: 1px solid #fcdb00;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
+.thumbInfo p {
+  color: #898989;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif; 
 }
-.email{
-    height: 50px;
-    padding: 0 25px;
-    display: inline-block;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    width: calc(100% - 190px);
+/* section footer css  */
+.footer {
+  padding: 95px 0px 140px;
+  background-color: #010101;
+}
+
+.footer .sectionHeading {
+  color: #fcdb00;
+  font-family: "Poppins", sans-serif; 
+}
+.footer .secSubHeading {
+  color: #898989;
+  font-family: "Poppins", sans-serif; 
+}
+.submit {
+  background-color: #fcdb00;
+  height: 50px;
+  width: 126px;
+  display: inline-block;
+  border: 1px solid #fcdb00;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.email {
+  height: 50px;
+  padding: 0 25px;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: calc(100% - 190px);
+}
+.socialLinks li {
+  display: inline-block;
+  margin-right: 32px;
+}
+.socialLinks li i {
+  font-size: 36px;
+  color: #fcdb00;
+}
+.footerLinks a {
+  font-size: 16px;
+  /* color: white; */
+  color: #fff;
+  text-transform: capitalize;
 }
