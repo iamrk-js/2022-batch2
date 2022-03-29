@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: orange;
+    height: 100vh;
+}
+.heroImg{
+    height: 100vh;
+    /* background-color: dodgerblue; */
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-position: center center;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
