@@ -1,0 +1,99 @@
+.container {
+  margin: 0 auto;
+  width: 1066px;
+}
+a:link,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.row,
+.row::after,
+.row::before {
+  width: 100%;
+  display: table;
+  clear: both;
+}
+.w-100 {
+  width: 100%;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+div[class^="col"] {
+  float: left;
+}
+
+.col1 {
+  width: calc(100% / 12);
+}
+.col2 {
+  width: calc(100% / 6);
+}
+.col3 {
+  width: 25%;
+}
+.col4 {
+  width: calc(100% * 4 / 12);
+}
+.col5 {
+  width: calc(100% * 5 / 12);
+}
+.col6 {
+  width: 50%;
+}
+.col9 {
+  width: 75%;
+}
+.col10 {
+  width: calc(100% * 10 / 12);
+}
+.col12 {
+  width: 100%;
+}
+
+/* margin helper class  */
+.mr-0 {
+  margin-right: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+.ml-1col {
+  margin-left: calc(100% / 12);
+}
+.ml-4col {
+  margin-left: calc(100% / 3);
+}
+.ml-3col {
+  margin-left: calc(100% * 3 / 12);
+}
+/* padding helper class  */
+.pr-0 {
+  padding-right: 0 !important;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
